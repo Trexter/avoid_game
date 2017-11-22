@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://ns.adobe.com/air/application/3.8">
+    <id>AvoidGame.Trexter</id>
+    <versionNumber>1.5.22</versionNumber>
+    <versionLabel></versionLabel>
+    <filename>Avoid Game</filename>
+    <description></description>
+    <!-- To localize the description, use the following format for the description element.<description><text xml:lang="en">English App description goes here</text><text xml:lang="fr">French App description goes here</text><text xml:lang="ja">Japanese App description goes here</text></description>-->
+    <name>Avoid Game</name>
+    <!-- To localize the name, use the following format for the name element.<name><text xml:lang="en">English App name goes here</text><text xml:lang="fr">French App name goes here</text><text xml:lang="ja">Japanese App name goes here</text></name>-->
+    <copyright></copyright>
+    <initialWindow>
+        <content>avoidGame_AndroidBuild.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <fullScreen>true</fullScreen>
+        <renderMode>gpu</renderMode>
+        <autoOrients>false</autoOrients>
+        <aspectRatio>portrait</aspectRatio>
+    </initialWindow>
+    <icon>
+        <image72x72>AppIconsForPublish/avoidGameIcon_72.png</image72x72>
+        <image36x36>AppIconsForPublish/AvoidgameIcon_36.png</image36x36>
+        <image48x48>AppIconsForPublish/avoidgameIcon_48.png</image48x48>
+    </icon>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <android>
+        <manifestAdditions><![CDATA[<manifest><uses-permission android:name="android.permission.INTERNET"/><uses-permission android:name="android.permission.READ_PHONE_STATE"/><uses-permission android:name="android.permission.WAKE_LOCK"/></manifest>]]></manifestAdditions>
+    </android>
+    <supportedLanguages>en</supportedLanguages>
+</application>
